@@ -11,7 +11,7 @@ export interface BisectionMethodOptions {
 }
 
 const defaultOptions: BisectionMethodOptions = {
-    tolerance: 1e-16,
+    tolerance: 1e-12,
     maxIterations: 100,
     logging: BisectionMethodLogLevel.none,
 }

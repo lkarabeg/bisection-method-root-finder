@@ -30,7 +30,7 @@ console.log(result) // 1
 
 | Option        | Type   | Default           | Comment                                                                                                    |
 |---------------|--------|-------------------|------------------------------------------------------------------------------------------------------------|
-| tolerance     | number | 1e-16             |                                                                                                            |
+| tolerance     | number | 1e-12             |                                                                                                            |
 | maxIterations | number | 100               |                                                                                                            |
 | logging       | enum   | none (no logging) | Set the log level to none (default), results or debug. <br/>Import the BisectionMethodLogLevel enum to use |
 
