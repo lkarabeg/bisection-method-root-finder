@@ -9,7 +9,7 @@
   "exports": {
     ".": {
       "import": "./dist/bisection-method.es.js",
-      "require": "./bisection-method.umd.js"
+      "require": "./dist/bisection-method.umd.js"
     }
   },
   "files": [
