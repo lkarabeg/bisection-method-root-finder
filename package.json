@@ -1,0 +1,36 @@
+{
+  "name": "@lkarabeg/bisection-method",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "module": "./dist/bisection-method.es.js",
+  "main": "./dist/bisection-method.umd.js",
+  "types": "./dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/bisection-method.es.js",
+      "require": "./bisection-method.umd.js"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.6.4",
+    "vitest": "^0.23.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkarabeg/bisection-method-root-finder",
+    "keywords": [
+      "root finder"
+    ]
+  }
+}
